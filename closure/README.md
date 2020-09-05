@@ -127,6 +127,7 @@ def closure_avg2():
         return total / cnt
     return averager
 ```
+free variable: 파이썬에서 자유변수는 코드 블럭 안에서 사용은 되었지만, 그 코드블럭에서 정의되지 안흔 변수를 의미한다.
 
 에러 발생 averager 영역에서 cnt+=1 을 한다는 것은 cnt를 선언하고 cnt 에 1을 더한다는 의미 
 하지만 averager 에서는 cnt 가 할당 즉 변수에 어떤 값이 할당된 적이 없다.   
