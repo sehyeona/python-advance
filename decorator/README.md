@@ -21,5 +21,5 @@ def perfomance_clock(func):
         return result
     return perfomance_clocked
 ```
-인자로 받은 func은 free variable 영역에 존재하며, perfomance_clocked 이 func을 클로저로 가져와 사용한다.
+인자로 받은 func은 free variable 영역에 존재하며, perfomance_clocked 이 클로저로서 작동하며 func을 끌고와 사용한다.
 
